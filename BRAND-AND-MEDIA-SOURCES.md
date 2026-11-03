@@ -1,8 +1,8 @@
-# Dagbana Republik — V3 brand and media notes (3 November 2026)
+# Dangbana Republik — V3 brand and media notes (3 November 2026)
 
 ## Wordmarks
 - Logo: **the user's faithful screenshot-based 4096×4096 upscale**, not a generated redrawing or original vector. Ship-wheel, interior lettering and flower/horn composition preserved. The original image is low resolution; the 4K upscale remains visibly soft under close inspection.
-- Bella name: artist name lockup inspired by the small uppercase, split two-line *BELLA SHMURDA.* on the official **Dagbana Riddim** (2025) and **DND** (2023) artwork, not a licensed font file or exact artist logo.
+- Bella name: artist name lockup inspired by the small uppercase, split two-line *BELLA SHMURDA.* on the official **Dangbana Riddim** (2025) and **DND** (2023) artwork, not a licensed font file or exact artist logo.
 - FOLA name: serif italic **Fola.** is inspired by the same shared cover; his *catharsis* cover also uses condensed serif caps. The site uses a styled text approximation rather than claiming a supplied official SVG.
 
 ## Editorial portraits (all independent of the video files)
@@ -20,7 +20,7 @@
 - FOLA — 9 (2026): https://music.apple.com/us/album/9/6810267024 ; https://open.spotify.com/album/1fHRY61FCATcIMjN0DPtdm
 - FOLA — catharsis (2025): https://music.apple.com/us/album/catharsis/1831623489 ; https://open.spotify.com/album/6gTLViwiDv6NKtTAG0nm7S
 - FOLA — what a feeling (2024): https://music.apple.com/us/album/what-a-feeling-ep/1777531024 ; https://open.spotify.com/album/0NWBna7snlHKH0NJ2f3Skp
-- Bella × FOLA — Dagbana Riddim (2025): https://music.apple.com/us/album/dangbana-riddim-single/1806940483
+- Bella × FOLA — Dangbana Riddim (2025): https://music.apple.com/us/album/dangbana-riddim-single/1806940483
 
 Source album cover image URLs live in `data/site.ts`. Some external sites block hotlinking. If a remote image host blocks embeds, the card displays a clearly branded fallback rather than unrelated album artwork.
 

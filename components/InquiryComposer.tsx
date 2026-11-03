@@ -10,7 +10,7 @@ export default function InquiryComposer() {
   const [status, setStatus] = useState('');
   async function copy() {
     if (!name.trim() || !message.trim()) { setStatus('Add your name and message first.'); return; }
-    const text = `Hello Dagbana Republik,\n\nInquiry: ${type}\nName: ${name.trim()}\n\n${message.trim()}\n`;
+    const text = `Hello Dangbana Republik,\n\nInquiry: ${type}\nName: ${name.trim()}\n\n${message.trim()}\n`;
     try { await navigator.clipboard.writeText(text); setStatus('Copied. Paste your message into the label’s official contact channel.'); }
     catch { setStatus('Copy unavailable in this browser. Please copy the message manually.'); }
   }

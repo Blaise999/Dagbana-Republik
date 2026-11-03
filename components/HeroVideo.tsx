@@ -68,7 +68,7 @@ export default function HeroVideo() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/hero-desktop.webp"
-          alt="Cinematic still from the Dagbana video"
+          alt="Cinematic still from the Dangbana video"
           fetchPriority="high"
         />
       </picture>
@@ -84,7 +84,7 @@ export default function HeroVideo() {
         onPlaying={() => { setReady(true); setPaused(false); }}
         onPause={() => setPaused(true)}
         onError={() => setPaused(true)}
-        aria-label="Dagbana Republik cinematic hero montage"
+        aria-label="Dangbana Republik cinematic hero montage"
       >
         <source src="/videos/hero-mobile.mp4" type="video/mp4" media="(max-width: 767px)" />
         <source src="/videos/hero-desktop.mp4" type="video/mp4" />

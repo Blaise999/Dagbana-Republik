@@ -12,13 +12,13 @@ import EditorialImage from '@/components/EditorialImage';
 
 export default function Home() {
   return <>
-    <section className="hero" aria-label="Dagbana Republik introduction">
+    <section className="hero" aria-label="Dangbana Republik introduction">
       <HeroVideo />
       <div className="hero-topline"><span><i/> EST. 2021 / LAGOS, NIGERIA</span><span>THE SOUND OF THE REPUBLIK</span></div>
       <div className="hero-content">
-        <div className="hero-brand-seal" aria-label="Dagbana Republik label emblem"><div className="hero-brand-seal__orbit" aria-hidden="true">DR • LAGOS • 2021 • THE MOVEMENT •</div><img src="/images/dagbana-emblem.webp" width="152" height="152" alt="Dagbana Republik wheel and floral logo" /></div>
+        <div className="hero-brand-seal" aria-label="Dangbana Republik label emblem"><div className="hero-brand-seal__orbit" aria-hidden="true">DR • LAGOS • 2021 • THE MOVEMENT •</div><img src="/images/dagbana-emblem.webp" width="152" height="152" alt="Dangbana Republik wheel and floral logo" /></div>
         <p className="hero-kicker hero-kicker--desktop">BELLA SHMURDA · FOLA · THE REPUBLIK</p><p className="hero-kicker hero-kicker--mobile">ONE SOUND. MANY STORIES. NO LIMITS.</p>
-        <h1><span>DAGBANA</span><em>REPUBLIK</em></h1>
+        <h1><span>DANGBANA</span><em>REPUBLIK</em></h1>
         <div className="hero-bottomline hero-bottomline--desktop"><p>Independent sound. Global ambition.</p><Link href="/artists" className="hero-discover">Explore the artists <ArrowUpRight/></Link></div><div className="hero-bottomline hero-bottomline--mobile"><p>MORE THAN A LABEL.<br />IT&apos;S A MOVEMENT.</p><Link href="/artists" className="circle-arrow" aria-label="Explore our artists"><ArrowUpRight/></Link><p className="hero-counter">BELLA SHMURDA / FOLA <span>001 — 002</span></p></div>
       </div>
       <div className="scroll-prompt"><span>SCROLL TO EXPLORE</span><span className="scroll-line"/></div>
@@ -28,7 +28,7 @@ export default function Home() {
 
     <section className="manifesto section-pad">
       <div className="section-topline"><span>THE STORY</span><span>ROOTED IN CULTURE. BUILT TO MOVE.</span></div>
-      <div className="manifesto-grid"><div className="manifesto-side"><span>INDEPENDENT IN SPIRIT.<br />UNLIMITED IN SOUND.</span></div><div className="manifesto-body" data-reveal><h2>More than music.</h2><p>Born from Nigerian street culture, Dagbana Republik is home to fearless voices, honest stories and music that travels beyond borders.</p><Link className="text-link" href="/republik">Discover the Republik <ArrowUpRight /></Link></div></div>
+      <div className="manifesto-grid"><div className="manifesto-side"><span>INDEPENDENT IN SPIRIT.<br />UNLIMITED IN SOUND.</span></div><div className="manifesto-body" data-reveal><h2>More than music.</h2><p>Born from Nigerian street culture, Dangbana Republik is home to fearless voices, honest stories and music that travels beyond borders.</p><Link className="text-link" href="/republik">Discover the Republik <ArrowUpRight /></Link></div></div>
     </section>
 
     <section className="roster section-pad" id="artists">
@@ -57,6 +57,6 @@ export default function Home() {
 
     <WorldTeasers />
 
-    <section className="end-cta"><div className="end-cta__top"><span>STAY CONNECTED</span><span>DAGBANA REPUBLIK</span></div><p>Stay with the Republik.</p><div className="end-cta__bottom"><span>KEEP UP WITH THE MUSIC, THE CULTURE AND EVERYTHING IN BETWEEN.</span><Link href="/contact" className="cta-link">GET IN TOUCH <ArrowUpRight/></Link></div></section>
+    <section className="end-cta"><div className="end-cta__top"><span>STAY CONNECTED</span><span>DANGBANA REPUBLIK</span></div><p>Stay with the Republik.</p><div className="end-cta__bottom"><span>KEEP UP WITH THE MUSIC, THE CULTURE AND EVERYTHING IN BETWEEN.</span><Link href="/contact" className="cta-link">GET IN TOUCH <ArrowUpRight/></Link></div></section>
   </>;
 }
