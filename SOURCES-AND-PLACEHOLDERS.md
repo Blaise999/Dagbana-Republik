@@ -1,6 +1,6 @@
-# Source credits & production checklist — Dagbana Republik concept
+# Source credits & production checklist — Dangbana Republik concept
 
-This is an independently produced, non-official design concept. It is **not** a live/authorized Dagbana Republik store, concert announcement, or newsletter.
+This is an independently produced, non-official design concept. It is **not** a live/authorized Dangbana Republik store, concert announcement, or newsletter.
 
 ## YouTube spotlight — official uploads
 
@@ -9,7 +9,7 @@ Video data is in `data/experience.ts` and can be edited without changing any Rea
 - Bella Shmurda — Happy Song: https://www.youtube.com/watch?v=JriGKmLtIc0
 - Bella Shmurda feat. Olamide — Ara: https://www.youtube.com/watch?v=Uf4p2tAdfrA
 - Bella Shmurda feat. Seyi Vibez — Bounce: https://www.youtube.com/watch?v=LblUEe3Kves
-- Bella Shmurda & FOLA — Dagbana Riddim: https://www.youtube.com/watch?v=nwSYUMzIXPM
+- Bella Shmurda & FOLA — Dangbana Riddim: https://www.youtube.com/watch?v=nwSYUMzIXPM
 - FOLA, Bella Shmurda & Zlatan — it's over: https://www.youtube.com/watch?v=xRiw_5aBEjM
 - FOLA — attention!: https://www.youtube.com/watch?v=Wk0OU6zAdPU
 - FOLA & Victony — golibe: https://www.youtube.com/watch?v=ZFWIFFQ7PYM
@@ -23,7 +23,7 @@ Each story links back to its publisher and date. Published article images are ho
 - 49th Street, Bella Shmurda Is Happy and Building Beyond Himself (Aug 2026): https://the49thstreet.com/bella-shmurda-is-happy-and-building-beyond-himself
 - TurnTable Charts, FOLA’s Full-Circle Moment (Sep 2026): https://turntablecharts.com/news/2275-fola-s-full-circle-moment-from-bella-and-zlatan-s-co-sign-to-no-1
 - The Guardian, Fola's Pop-Soul Diary (May 2025): https://guardian.ng/life/music/folas-pop-soul-diary/
-- Pulse Nigeria, Bella Shmurda & FOLA Unite on Dagbana Riddim (Apr 2025): https://www.pulse.ng/story/bella-shmurda-and-fola-unite-on-explosive-new-anthem-dangbana-riddim-2025041112560248281
+- Pulse Nigeria, Bella Shmurda & FOLA Unite on Dangbana Riddim (Apr 2025): https://www.pulse.ng/story/bella-shmurda-and-fola-unite-on-explosive-new-anthem-dangbana-riddim-2025041112560248281
 - Pulse Nigeria, FOLA's UK headlining show (Apr 2026): https://www.pulse.ng/story/afrobeats-fola-shine-in-his-maiden-uk-concert-2026042017060099913
 
 Photo URL sources include Notjustok, HIPTV, BusinessDay, Bella Shmurda's X post, African Folder, and Pulse. Photo rights have **not** been cleared for production deployment. Replace with licensed, approved artist press photos and magazine imagery (or negotiate permissions) before public launch.

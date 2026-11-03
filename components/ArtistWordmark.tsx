@@ -1,4 +1,4 @@
-/** Typography study based on the actual Dagbana Riddim and other release artwork.
+/** Typography study based on the actual Dangbana Riddim and other release artwork.
  * Not an official downloadable wordmark. */
 export default function ArtistWordmark({artist, className=''}:{artist:string;className?:string}) {
   if (artist.toLowerCase().includes('bella')) return (
