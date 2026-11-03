@@ -1,0 +1,263 @@
+/* V4 — editorial correction pass. Intentional motion, readable headings and clear content.
+   The already-approved mobile hero is intentionally left intact. */
+:root { --acid:#d8ff61; --mist:#f3f1e9; }
+body {overflow-x:hidden}
+.section-pad {padding:clamp(65px,7.5vw,108px) 5.1vw}
+.section-topline {font-size:10px;line-height:1.6;letter-spacing:.11em}
+[data-reveal] {overflow:visible}
+/* Less chrome, more photography. Logo remains prominent in the navigation. */
+.site-header {gap:25px;padding:18px 5.1vw}
+.site-header.is-scrolled {padding-top:12px;padding-bottom:12px}
+.brand {gap:10px}
+.brand-logo {width:47px;height:47px;border:none;background:transparent;padding:0}
+.brand-words strong {font-size:19px;letter-spacing:.005em}
+.brand-words em {font-size:12px;letter-spacing:.13em;color:#f4f3ec}
+.site-header.is-scrolled .brand-logo {width:44px;height:44px}
+.desktop-nav {gap:clamp(13px,1.7vw,27px)}
+.desktop-nav a {font-size:10px;letter-spacing:.05em;opacity:.84}
+.header-contact {gap:14px;padding:11px 16px;font-size:10px}
+/* Desktop hero: let the image lead. Mobile hero keeps the V3 layout exactly. */
+.hero-kicker--mobile,.hero-bottomline--mobile {display:none}
+.hero-kicker--desktop,.hero-bottomline--desktop {display:flex}
+@media(min-width:768px) {
+ .hero {height:100svh;min-height:650px}
+ .hero-brand-seal {display:none}
+ .hero-topline {top:130px;left:5.1vw;right:5.1vw;font-size:10px;opacity:.82}
+ .hero-topline span:last-child {display:none}
+ .hero-content {padding:0 5.1vw clamp(68px,10vh,108px);max-width:100%}
+ .hero-kicker {font-size:11px;letter-spacing:.13em;font-weight:700;margin-bottom:22px}
+ .hero h1 {line-height:.92;letter-spacing:-.016em;max-width:880px}
+ .hero h1>span {font-size:clamp(64px,9vw,146px)}
+ .hero h1>em {font-size:clamp(58px,8.4vw,135px);-webkit-text-stroke:1.5px rgba(255,255,255,.95);margin-top:0}
+ .hero-bottomline {margin-top:29px;align-items:center;gap:24px}
+ .hero-bottomline>p:first-child {font-size:13px;font-weight:500;letter-spacing:0;line-height:1.5}
+ .hero-discover {display:inline-flex;align-items:center;gap:13px;border-bottom:1px solid rgba(255,255,255,.7);padding:7px 0;font-size:12px;font-weight:700;white-space:nowrap}
+ .hero-discover svg {width:16px;height:16px;transition:transform .3s}
+ .hero-discover:hover svg {transform:translate(3px,-3px)}
+ .scroll-prompt {bottom:28px}
+}
+/* Page rhythm and readable, complete titles. */
+.manifesto {background:#eeeee8}
+.manifesto-grid {grid-template-columns:minmax(200px,.85fr) minmax(0,1.8fr);padding-top:clamp(35px,5vw,70px);gap:6vw}
+.manifesto-side {font-size:11px;color:#4b5246;line-height:1.7}
+.manifesto-body h2, .roster-title h2, .section-heading-row h2,
+.visuals-copy h2,.film-top h2,.contact-copy h2,.story-intro h2,
+.artist-bio h2 {font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.08;overflow-wrap:normal}
+.manifesto-body h2 {font-size:clamp(46px,5.9vw,92px);max-width:800px}
+.manifesto-body>p {font-size:clamp(15px,1.4vw,19px);margin:27px 0 24px;max-width:620px;line-height:1.65}
+.manifesto-body>.text-link {margin-left:0}
+.roster {padding-bottom:80px}
+.roster-title {margin:45px 0 30px;gap:22px}
+.roster-title h2 {font-size:clamp(47px,6.5vw,96px);line-height:1.05}
+.roster-title p {font-size:12px;font-weight:500;line-height:1.65;letter-spacing:.02em}
+.artist-tile {min-height:420px;height:min(48vw,640px)}
+.artist-tile__top {top:20px;left:20px;right:20px}
+.artist-tile__bottom {left:21px;right:21px;bottom:21px}
+.artist-tile__bottom h3 {font-size:clamp(42px,5.2vw,78px);max-width:85%;overflow:visible}
+.artist-lockup--bella {line-height:.91;letter-spacing:-.042em;transform:none;filter:none}
+.artist-lockup--fola {letter-spacing:-.07em;transform:rotate(-2deg)}
+.artist-lockup--bella .artist-lockup__dot {display:none}
+.artist-lockup--fola .artist-lockup__dot {display:none}
+.artist-tile__circle {width:45px;height:45px;flex-shrink:0}
+.artist-tile__circle svg {width:20px;height:20px}
+.section-heading-row {margin:47px 0 31px;align-items:center}
+.section-heading-row h2 {font-size:clamp(48px,6.3vw,95px);line-height:1.03}
+.section-heading-row h2 em {color:inherit;-webkit-text-stroke:0;opacity:1}
+.pill-link {font-size:11px;gap:15px;padding:13px 18px}
+.release-meta strong {font-size:17px;line-height:1.3}
+/* Screening room — simple artist lockups, no faux stickers. */
+.spotlights-section {padding:clamp(65px,7vw,100px) 5.1vw 75px;background:#161a16;color:#f3f1e9}
+.spotlights-section::before {display:none}
+.spotlights-header__title {align-items:end;padding:30px 0 42px;gap:35px}
+.spotlights-header__title>div:first-child>p {font-size:10px;font-weight:700;letter-spacing:.12em;margin-bottom:17px;color:#c9d6b0}
+.spotlights-header h2 {font-family:Impact,'Arial Black',sans-serif;font-size:clamp(48px,6.7vw,100px);line-height:1.05;letter-spacing:-.02em;white-space:normal}
+.spotlights-header__summary {max-width:290px;font-size:14px;line-height:1.6;color:#bbbdaf}
+.spotlight-decks {gap:22px}
+.spotlight-deck {border-color:rgba(255,255,255,.13);background:#20251f}
+.spotlight-deck--fola {background:#252326}
+.spotlight-deck__head {min-height:91px;padding:16px 19px;gap:12px}
+.spotlight-deck__head-left {gap:13px;min-width:0}
+.spotlight-deck__number {font-size:31px;line-height:1;letter-spacing:0;color:#c2d18e}
+.spotlight-deck--fola .spotlight-deck__number {color:#c7b5e4}
+.spotlight-deck__head-left>div {min-width:0}
+.spotlight-deck__head-left p {margin-bottom:7px;font-size:9px;color:#afb4a8;letter-spacing:.12em}
+.spotlight-deck__head-left h3.spotlight-name {font-size:clamp(22px,2.35vw,32px)!important;line-height:1.05;min-height:42px;display:flex;align-items:center}
+.spotlight-deck__head-left .artist-lockup--bella {font-size:.9em;line-height:.92}
+.spotlight-deck__head-left .artist-lockup--fola {font-size:1.12em;line-height:.98}
+.spotlight-live {font-size:9px;color:#aeb5a9;letter-spacing:.04em;white-space:nowrap;font-weight:600}
+.spotlight-live__dot {display:none}
+.spotlight-cover__img {filter:brightness(.85) contrast(1.07) saturate(.9)}
+.spotlight-grain,.spotlight-orbit,.spotlight-stamp {display:none!important}
+.spotlight-play {width:65px;height:65px;background:rgba(255,255,255,.9);border:none;box-shadow:none;color:#10140f;font-size:16px}
+.spotlight-deck--fola .spotlight-play {background:rgba(255,255,255,.9)}
+.spotlight-frame-label {left:18px;bottom:16px;font-size:10px;letter-spacing:.13em;text-shadow:0 1px 8px #000}
+.spotlight-now {min-height:128px;padding:20px 20px 17px;align-items:center;gap:10px}
+.spotlight-now__label {font-size:9px;font-weight:600;letter-spacing:.12em}
+.spotlight-now h4 {font:800 clamp(24px,2.5vw,38px)/1.1 Arial,Helvetica,sans-serif;letter-spacing:-.035em;margin-top:9px;word-break:normal;overflow-wrap:anywhere;animation:none}
+.spotlight-now p {margin-top:7px;font-size:11px}
+.spotlight-now__actions {gap:7px;align-self:center}
+.youtube-link,.spotlight-next {padding:10px 11px;font-size:9px;border-radius:3px;letter-spacing:.04em;white-space:nowrap}
+.spotlight-next {background:#d8ff61}
+.spotlight-queue {padding:0 18px 10px}
+.spotlight-queue__head {padding:17px 0 13px}
+.spotlight-queue__head>span {font-size:10px;letter-spacing:.09em}
+.spotlight-nextrow {min-height:75px;gap:12px}
+.spotlight-nextrow__thumb {width:85px}
+.spotlight-nextrow__meta strong {font-size:14px;font-weight:700;letter-spacing:-.02em}
+.spotlight-nextrow__meta small {font-size:10px}
+.spotlight-nextrow__arr {border:0;border-radius:0;background:transparent}
+.spotlight-deck__foot {display:none}
+.spotlights-bottom {font-size:9px;line-height:1.5;letter-spacing:.08em}
+.spotlight-player__controls {position:absolute;z-index:5;bottom:11px;left:10px;right:10px;display:flex;justify-content:space-between;pointer-events:none;gap:8px}
+.spotlight-player__controls button {pointer-events:auto;background:rgba(9,12,10,.87);border:1px solid rgba(255,255,255,.35);color:#fff;padding:10px 11px;font:700 10px Arial,sans-serif;letter-spacing:.03em;border-radius:3px}
+.spotlight-player__controls button:disabled {opacity:.5}
+.spotlight-close {display:none}
+/* Quiet photographic motion without rotating labels/sticker overlays. */
+.photo-drift {padding:72px 0 50px;background:#c5bce5}
+.photo-drift__heading {padding:0 5.1vw 30px;gap:18px}
+.photo-drift__heading h2 {font-size:clamp(45px,6vw,92px);letter-spacing:-.025em;line-height:1.02;max-width:800px}
+.photo-drift__card {transform:none;border:3px solid rgba(20,20,20,.85);box-shadow:none}
+.photo-drift__card:nth-child(2n),.photo-drift__card:nth-child(3n) {transform:none}
+.photo-drift__rail {gap:13px;animation-duration:80s}
+.photo-drift__caption strong {font:800 26px/1 Arial,Helvetica,sans-serif}
+.news-wall {padding:75px 5.1vw 80px}
+.news-wall__heading {margin:30px 0 39px}
+.news-wall__heading h2 {font-size:clamp(46px,6.4vw,96px);line-height:1.04;letter-spacing:-.025em}
+.news-wall__heading p {max-width:200px;line-height:1.7}
+.news-story__badge {display:none}
+.news-story h3,.news-story:first-child h3 {font-size:clamp(23px,2.3vw,33px);line-height:1.15;letter-spacing:-.025em}
+/* Teasers: merchandise and event areas now feel like content, not sticker boards. */
+.merch-tease {background:#dc805a;padding:65px 5.1vw 30px}
+.merch-tease__body {grid-template-columns:1.1fr .9fr;gap:45px;min-height:465px}
+.merch-tease__copy {padding:22px 0 45px}
+.merch-tease h2,.tour-tease h2 {font:800 clamp(44px,6.4vw,95px)/1.06 Impact,'Arial Black',sans-serif;letter-spacing:-.025em;max-width:680px;overflow-wrap:normal}
+.merch-tease h2 {margin:15px 0 25px}
+.merch-tease__copy>p {font-size:12px;font-weight:600;letter-spacing:.035em;line-height:1.65;max-width:450px;margin-bottom:26px}
+.merch-tease__visual {max-width:430px;transform:none}
+.merch-tease__visual:hover {transform:translateY(-5px)}
+.merch-tease__photo {inset:0;border:0;box-shadow:none}
+.merch-tease__ring,.merch-tease__corner,.merch-tease__stamp {display:none}
+.tour-tease {padding:65px 5.1vw 80px;background:#d1e8a5}
+.tour-tease__top {grid-template-columns:1.1fr .9fr;gap:35px;padding:20px 0 35px}
+.tour-tease__top>div:first-child>p {margin-bottom:20px;font-weight:700}
+.tour-tease__art {height:340px;transform:none;box-shadow:none;border:none}
+.tour-tease__art>span {display:none}
+.tour-date {grid-template-columns:25px 54px 115px minmax(0,1fr) 180px 25px;gap:16px}
+.tour-date__visual {width:54px;height:54px;transform:none;border:0}
+.tour-date:hover .tour-date__visual {transform:none}
+.tour-date__where strong {font-size:clamp(26px,3.2vw,43px)}
+.tour-date__when strong {font-size:clamp(26px,3vw,42px)}
+.tour-date__status {font-size:9px}
+/* Final CTA and footer are clean, not oversized. */
+.end-cta {padding:60px 5.1vw 70px}
+.end-cta>p {font-size:clamp(48px,6.6vw,102px);line-height:1.06;letter-spacing:-.02em;margin:60px 0 40px}
+.footer {padding-top:54px}
+.footer-top {gap:30px}
+.footer-brand-display {gap:22px;padding-top:70px;align-items:center}
+.footer-brand-display>img {width:clamp(65px,8vw,126px);transform:none}
+.footer-brand-display:hover>img {transform:none}
+.footer-brand-display .footer-wordmark {font-size:clamp(50px,7vw,110px);line-height:1.05;margin:0;white-space:normal}
+.footer-wordmark span {font:700 .26em Arial,sans-serif;letter-spacing:.13em;display:block;margin:3px 0 0}
+/* Inner pages should carry one complete heading at a reasonable size. */
+.interior-hero {height:70svh;min-height:560px;padding:142px 5.1vw 65px}
+.interior-hero h1 {font-size:clamp(54px,8vw,116px);line-height:1.04;letter-spacing:-.024em;max-width:970px}
+.interior-hero__description {font-size:17px;line-height:1.6;max-width:530px}
+.experience-intro {min-height:550px;height:68svh;padding:170px 5.1vw 66px}
+.experience-intro::before {display:none}
+.experience-intro h1 {font-size:clamp(56px,7.7vw,116px);line-height:1.06;letter-spacing:-.022em;max-width:1000px}
+.experience-intro h1>span {display:none}
+.experience-intro__top {left:5.1vw}
+.experience-intro__bottom {margin-top:30px}
+.story-intro__grid {grid-template-columns:1fr;margin-top:40px;max-width:950px}
+.story-intro h2 {font-size:clamp(46px,6vw,88px);line-height:1.08}
+.story-intro__star {display:none}
+.artist-bio h2 {font-size:clamp(34px,4.4vw,64px);line-height:1.12}
+.artist-profile-title h1 {font-size:clamp(65px,9.4vw,145px);line-height:1.06;max-width:calc(100vw - 10vw)}
+.artist-profile-title .artist-lockup--bella {font-size:.82em}
+.artist-profile-title .artist-lockup--fola {font-size:1em}
+.directory-artist h2 {font-size:clamp(48px,6vw,90px);line-height:1.03}
+.film-top h2,.contact-copy h2 {font-size:clamp(44px,5.5vw,88px);line-height:1.06}
+.teaser-coda h2 {font-size:clamp(48px,6.5vw,100px);line-height:1.1;margin:25px 0}
+.teaser-coda h2>span {display:none}
+/* A readable layout at laptop widths and tablet breakpoints. */
+@media (max-width:1120px) and (min-width:768px) {
+ .hero h1>span {font-size:9.5vw}
+ .hero h1>em {font-size:9vw}
+ .spotlight-deck__head {padding:15px}
+ .spotlight-live {display:none}
+ .spotlight-now {align-items:flex-start;flex-direction:column;gap:11px}
+ .spotlight-now__actions {align-self:flex-start}
+ .artist-tile__bottom h3 {font-size:clamp(45px,5vw,70px)}
+}
+@media (max-width:900px) {
+ .spotlights-header__summary {display:none}
+ .spotlight-decks {grid-template-columns:1fr;gap:25px}
+ .spotlight-deck__head-left h3.spotlight-name {font-size:30px!important}
+ .spotlight-now {flex-direction:row;align-items:center}
+ .tour-date {grid-template-columns:25px 50px 92px minmax(0,1fr) 140px;gap:10px}
+ .tour-date__arrow {display:none}
+ .tour-date__where strong {font-size:33px}
+}
+@media (max-width:767px) {
+ /* Keep the previously approved mobile hero exactly as before. */
+ .hero-kicker--mobile {display:block}
+ .hero-bottomline--mobile {display:flex}
+ .hero-kicker--desktop,.hero-bottomline--desktop {display:none}
+ .hero-discover {display:inline-flex;align-items:center;gap:9px;border-bottom:1px solid #fff;padding:5px 0;font-size:10px;font-weight:700}
+ .hero-discover svg {width:14px;height:14px}
+ .brand-logo {width:43px;height:43px}
+ .brand-words strong {font-size:19px}
+ .brand-words em {font-size:12px}
+ .manifesto-grid {grid-template-columns:1fr;gap:22px;padding-top:35px}
+ .manifesto-body h2 {font-size:clamp(43px,10.5vw,68px)}
+ .manifesto-body>p {font-size:16px;margin:20px 0}
+ .roster-title {align-items:flex-start;flex-direction:column;margin:35px 0 25px}
+ .roster-title h2 {font-size:clamp(46px,10vw,70px)}
+ .roster-title p {text-align:left}
+ .artist-grid {grid-template-columns:1fr}
+ .artist-tile {min-height:440px;height:110vw;max-height:620px}
+ .artist-tile__bottom h3 {font-size:clamp(56px,13vw,95px)}
+ .section-heading-row {align-items:flex-start;flex-direction:column;gap:20px}
+ .section-heading-row h2 {font-size:clamp(46px,10vw,72px)}
+ .spotlights-section {padding:60px 5vw 55px}
+ .spotlights-header__title {padding:26px 0 30px}
+ .spotlights-header h2 {font-size:clamp(42px,11vw,66px);line-height:1.05}
+ .spotlight-deck__head {min-height:78px;padding:13px}
+ .spotlight-deck__number {font-size:27px}
+ .spotlight-deck__head-left h3.spotlight-name {font-size:25px!important}
+ .spotlight-deck__head-left .artist-lockup--bella {line-height:.93}
+ .spotlight-live {display:none}
+ .spotlight-now {padding:16px 14px;gap:11px;align-items:flex-start}
+ .spotlight-now h4 {font-size:clamp(22px,6.4vw,32px);line-height:1.12}
+ .spotlight-now__actions {flex-direction:column;align-items:stretch}
+ .youtube-link,.spotlight-next {padding:9px;font-size:8px;text-align:center}
+ .spotlight-queue {padding:0 13px 10px}
+ .spotlight-nextrow__thumb {width:65px}
+ .spotlight-nextrow__meta strong {font-size:13px}
+ .spotlight-player__controls button {font-size:8px;padding:8px}
+ .photo-drift__heading h2 {font-size:clamp(43px,10vw,67px);line-height:1.07}
+ .news-wall__heading h2 {font-size:clamp(45px,10.5vw,72px)}
+ .merch-tease h2,.tour-tease h2 {font-size:clamp(45px,11vw,73px);line-height:1.06}
+ .merch-tease__visual {height:380px;width:min(88%,350px);margin:6px auto 28px}
+ .tour-tease__top {grid-template-columns:1fr}
+ .tour-tease__art {width:100%;max-width:490px;margin:5px 0 0;transform:none}
+ .tour-date {grid-template-columns:16px 45px 70px minmax(0,1fr);gap:8px}
+ .tour-date__status,.tour-date__arrow {display:none}
+ .tour-date__visual {width:44px;height:44px}
+ .tour-date__where strong {font-size:clamp(24px,6.5vw,33px)}
+ .tour-date__when strong {font-size:29px}
+ .end-cta>p {font-size:clamp(46px,11vw,75px);line-height:1.1;margin:35px 0}
+ .footer-brand-display {gap:15px;padding-top:45px}
+ .footer-brand-display>img {width:65px}
+ .footer-brand-display .footer-wordmark {font-size:clamp(36px,8.5vw,60px);margin:0}
+ .interior-hero {min-height:530px;height:69svh;padding:155px 5vw 55px}
+ .interior-hero h1 {font-size:clamp(48px,11vw,78px);line-height:1.05}
+ .experience-intro {min-height:500px;height:72svh;padding:160px 5vw 50px}
+ .experience-intro h1 {font-size:clamp(46px,11vw,77px);line-height:1.07}
+ .artist-profile-title h1 {font-size:clamp(65px,14vw,100px)}
+ .directory-artist h2 {font-size:clamp(47px,10vw,76px)}
+ .film-top h2,.contact-copy h2 {font-size:clamp(40px,10vw,65px)}
+}
+@media (prefers-reduced-motion:reduce) {
+ .spotlight-cover__img,.photo-drift__rail,.tour-tease__art {transition:none!important;animation:none!important}
+}

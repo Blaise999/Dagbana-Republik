@@ -1,0 +1,7 @@
+V5 release-area cleanup
+
+Removed the giant diagonal THE SOUND MOVES watermark entirely (not just hidden).
+Removed its marquee animation and reduced the leftover top whitespace.
+Album cover hover, on-scroll motion, play buttons, content, and the mobile hero are unchanged.
+
+Deployment: open this folder in PowerShell, then run npm install (if needed), npm run build, vercel --prod.

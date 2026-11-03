@@ -1,0 +1,14 @@
+DAGBANA REPUBLIK — V4 REFINED EDITION
+
+1. Extract this folder.
+2. Open Dagbana-Nextjs-V4 in VS Code.
+3. Run: npm install
+4. Run: npm run dev
+5. Visit http://localhost:3000
+
+To verify deployment readiness: npm run build
+
+Open preview.html for an offline STATIC layout preview. It does not run the app.
+
+V4: smaller desktop type, cleaned layouts, unchanged mobile hero, auto-muted video spotlights with tap-to-unmute, and no stickers.
+The site is an independent concept, not an official label release.

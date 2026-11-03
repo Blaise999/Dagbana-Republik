@@ -1,0 +1,44 @@
+
+/* V5 / cleaner Dagbana release identity: artwork does the talking */
+.music-section {position:relative;overflow:hidden;background:#eaece5}
+.music-section .section-heading-row {position:relative;z-index:2;gap:24px;align-items:flex-end;margin:40px 0 36px}
+.music-section .section-heading-row h2 {font-size:clamp(45px,6.4vw,100px);letter-spacing:-.04em;line-height:1.01;text-wrap:balance;max-width:780px}
+.music-section__subline {font:500 clamp(12px,1.2vw,17px)/1.5 Arial,sans-serif;color:#484c41;margin:16px 0 0;max-width:460px;letter-spacing:0}
+.music-section .pill-link {background:#1b211a;color:#fff;border:0;padding:15px 19px;gap:20px;transition:transform .3s,background .3s;border-radius:100px}
+.music-section .pill-link:hover {background:#343d2d;transform:translateY(-3px)}
+.home-release-stage {position:relative;padding:14px 0 15px;isolation:isolate}
+.release-grid--featured {position:relative;z-index:1;gap:clamp(12px,2.3vw,32px);align-items:start}
+.release-grid--featured .release-card:nth-child(2){margin-top:clamp(0px,4vw,72px)}
+.release-grid--featured .release-card:nth-child(3){margin-top:clamp(0px,8vw,125px)}
+.release-card--real .release-art {border-radius:5px;box-shadow:0 15px 40px rgba(18,25,15,.12);transition:transform .65s cubic-bezier(.18,.8,.24,1),box-shadow .6s}
+.release-card--real .release-art:hover {transform:translateY(-10px) rotate(-1deg);box-shadow:0 26px 65px rgba(18,25,15,.25)}
+.release-card--real .release-art::after,.release-card--real .release-art::before {display:none!important}
+.release-art__image {width:100%!important;height:100%!important;inset:0;object-fit:cover}
+.release-card--real .release-art__play {display:grid;place-items:center;position:absolute;bottom:17px;right:17px;left:auto;width:54px;height:54px;border-radius:100%;padding:0;margin:0;background:rgba(255,255,255,.95);color:#192017;box-shadow:0 5px 30px rgba(0,0,0,.17);transform:none;transition:transform .35s,background .35s;letter-spacing:normal}
+.release-card--real .release-art__play:hover,.release-card--real .release-art:hover .release-art__play {transform:scale(1.1);background:#fff}
+.release-art__back {display:none!important}
+.release-meta {margin-top:11px;padding:13px 0 0;align-items:start}
+.release-meta strong {font-size:clamp(18px,1.8vw,27px);letter-spacing:-.035em;line-height:1.1}
+.release-meta span {font-size:11px}
+.release-meta .release-open {white-space:nowrap;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em}
+.release-meta .release-open:hover {text-decoration:underline;text-underline-offset:5px}
+.release-card--real {animation:release-enter .85s both;animation-timeline:view();animation-range:entry 0% cover 32%}
+@keyframes release-enter {from{opacity:.65;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}
+.spotlight-deck__number,.tour-date__num {display:none!important}
+.tour-date {grid-template-columns:54px 115px minmax(0,1fr) 180px 25px!important}
+@media (max-width:1100px) { .tour-date {grid-template-columns:54px 100px minmax(0,1fr) 25px!important} }
+@media(max-width:767px){
+  .music-section .section-heading-row {align-items:start;gap:18px}
+  .music-section .section-heading-row h2 {font-size:clamp(42px,10vw,67px)}
+  .home-release-stage {padding-top:12px}
+  .release-grid--featured .release-card:nth-child(n) {margin-top:0}
+  .release-card--real .release-art__play {width:48px;height:48px;bottom:13px;right:13px}
+  .tour-date {grid-template-columns:50px 74px minmax(0,1fr)!important}
+}
+@media(prefers-reduced-motion:reduce){.release-card--real{animation:none}.release-card--real .release-art:hover{transform:none}}
+
+.music-section .section-heading-row {display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end}
+.music-section .section-heading-row h2 {grid-column:1;grid-row:1}
+.music-section .section-heading-row .music-section__subline {grid-column:1;grid-row:2;margin:0}
+.music-section .section-heading-row .pill-link {grid-column:2;grid-row:1 / span 2;align-self:center}
+@media(max-width:767px){.music-section .section-heading-row {display:flex;align-items:flex-start;flex-direction:column}.music-section .section-heading-row .music-section__subline {margin:0}}

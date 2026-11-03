@@ -1,0 +1,5 @@
+Official brand spelling for this website concept: DAGBANA REPUBLIK (one N).
+All project UI, site metadata, internal filenames, and package name were updated.
+External third-party links retain their original spelling to prevent broken URLs.
+The supplied raster emblem was preserved unchanged so the artwork is not modified without approval.
+The included vercel.json forces the Next.js deployment framework even when the dashboard still says Other.
