@@ -1,4 +1,4 @@
-# Dagbana Republik — V4 / Refined Edition
+# Dangbana Republik — V4 / Refined Edition
 
 This is the revised **Next.js 15** independent website concept, incorporating the design review from November 2026.
 
@@ -40,3 +40,7 @@ Content remains editable in `data/site.ts` and `data/experience.ts`. Styling cor
 - TS/TSX parsed without syntax diagnostics; both CSS files parsed without stylesheet errors.
 - A production Next.js build was **not** run here because npm could not resolve `registry.npmjs.org` (`EAI_AGAIN`). Run `npm install` / `npm run build` on your PC before deployment.
 - A full live browser screenshot test was not completed here.
+
+## Brand spelling correction
+
+The label is **Dangbana Republik**, not Dagbana. Visible website copy, headings, social metadata, and placeholders use the corrected name. Asset file paths and the deployed address (`https://dagbana.vercel.app`) are intentionally unchanged to avoid breaking existing references and deployments.

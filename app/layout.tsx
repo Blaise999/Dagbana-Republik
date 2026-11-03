@@ -8,11 +8,11 @@ import './v5.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://dagbana.vercel.app'),
-  title: { default: 'Dagbana Republik — Website Concept', template: '%s | Dagbana Republik' },
-  description: 'An independent website concept for Dagbana Republik, featuring Bella Shmurda, FOLA, music and the movement.',
+  title: { default: 'Dangbana Republik — Website Concept', template: '%s | Dangbana Republik' },
+  description: 'An independent website concept for Dangbana Republik, featuring Bella Shmurda, FOLA, music and the movement.',
   robots: { index: false, follow: false },
   icons: { icon: "/images/dagbana-favicon.png", apple: "/images/dagbana-favicon.png" },
-  openGraph: { title: 'Dagbana Republik — Website Concept', description: 'The music. The artists. The Republik.', images: ['/images/hero-desktop.webp'] },
+  openGraph: { title: 'Dangbana Republik — Website Concept', description: 'The music. The artists. The Republik.', images: ['/images/hero-desktop.webp'] },
 };
 export const viewport: Viewport = { themeColor: '#111311', width: 'device-width', initialScale: 1 };
 

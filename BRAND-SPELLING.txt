@@ -1,5 +1,3 @@
-Official brand spelling for this website concept: DAGBANA REPUBLIK (one N).
-All project UI, site metadata, internal filenames, and package name were updated.
-External third-party links retain their original spelling to prevent broken URLs.
-The supplied raster emblem was preserved unchanged so the artwork is not modified without approval.
-The included vercel.json forces the Next.js deployment framework even when the dashboard still says Other.
+Official label name: DANGBANA REPUBLIK (D-a-n-g-b-a-n-a).
+Use Dangbana Republik throughout visible website content.
+The existing URL https://dagbana.vercel.app is an independent deployment address and remains unchanged.

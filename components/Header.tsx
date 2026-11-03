@@ -36,9 +36,9 @@ export default function Header() {
 
   return <>
     <header className={`site-header ${scrolled || pathname !== '/' ? 'is-scrolled' : ''} ${open ? 'menu-open' : ''}`}>
-      <Link className="brand" href="/" aria-label="Dagbana Republik, home">
+      <Link className="brand" href="/" aria-label="Dangbana Republik, home">
         <Image className="brand-logo" src="/images/dagbana-emblem.webp" alt="" width={58} height={58} priority />
-        <span className="brand-words"><strong>DAGBANA</strong><em>REPUBLIK</em></span>
+        <span className="brand-words"><strong>DANGBANA</strong><em>REPUBLIK</em></span>
       </Link>
       <nav className="desktop-nav" aria-label="Main navigation">
         {routes.map(([href, title]) => <Link key={href} href={href} className={pathname === href || (href === '/artists' && pathname.startsWith('/artists/')) ? 'is-active' : ''}>{title}</Link>)}
